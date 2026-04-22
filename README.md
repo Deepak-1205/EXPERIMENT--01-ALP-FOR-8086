@@ -135,9 +135,9 @@ AND AX,BX
 
 ## Logical OR operation ALP
 ```
-MOV AX,5678h
-MOV BX,1234h
-AND AX,BX
+MOV CX,5525h
+MOV DX,2252h
+OR CX,DX
 ```
 ## Output 
 
@@ -145,9 +145,10 @@ AND AX,BX
 
 ## Logical XNOR operation ALP
 ```
-MOV AX,5678h
-MOV BX,1234h
-AND AX,BX
+MOV CX,0F00h
+MOV DX,00FFh
+XOR CX,DX
+NOT CX
 ```
 ## Output 
 
@@ -156,9 +157,10 @@ AND AX,BX
 
 ## Logical NAND operation ALP
 ```
-MOV AX,5678h
-MOV BX,1234h
+MOV AX,2468h
+MOV BX,1357h
 AND AX,BX
+NOT AX
 ```
 ## Output 
 
