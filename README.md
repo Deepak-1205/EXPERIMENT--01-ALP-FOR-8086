@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : Deepak S
+
+Regno : 212224230053
+
+Date of experiment : 22/04/2026
 
 
 
@@ -78,30 +80,91 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
+```
+MOV AX,1224H
+MOV BX,1122H
+ADD AX,BX 
+```
 
 ## Output  
- 
+
+<img width="1564" height="554" alt="Screenshot 2026-04-22 084138" src="https://github.com/user-attachments/assets/e1607cfa-f492-48f3-9de4-7a3a70465119" />
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+MOV CX, 7456H
+MOV DX, 5000H
+SUB CX, DX
+ ```
 ## Output  
-## Multiplication alp 
- ## Output  
 
+<img width="1564" height="564" alt="Screenshot 2026-04-22 084203" src="https://github.com/user-attachments/assets/cb6ed06f-511e-49bc-914b-dac3d377c75d" />
+
+## Multiplication alp 
+```
+MOV AX, 0012H      
+MOV BX, 000BH      
+MUL BX    
+```
+## Output  
+
+<img width="1563" height="562" alt="Screenshot 2026-04-22 084625" src="https://github.com/user-attachments/assets/70475d26-9b95-4c5e-99a4-473ca6b4c399" />
 
 ## Division alp 
+```   
+MOV AX,00A2H
+MOV CX,0014H
+DIV CX
+```
 
 ## Output  
+
+<img width="1568" height="561" alt="Screenshot 2026-04-22 084650" src="https://github.com/user-attachments/assets/6eedfae7-3991-4f79-bba9-43d627012d85" />
+
+## Programs for Logical operations
+ 
+## Logical AND operation ALP
+```
+MOV AX,5678h
+MOV BX,1234h
+AND AX,BX
+```
+## Output  
+
+<img width="1588" height="559" alt="Screenshot 2026-04-22 085913" src="https://github.com/user-attachments/assets/1517d14d-2c6b-4a68-b0c4-a222551f3641" />
+
+## Logical OR operation ALP
+```
+MOV AX,5678h
+MOV BX,1234h
+AND AX,BX
+```
+## Output 
+
+<img width="1594" height="556" alt="Screenshot 2026-04-22 085927" src="https://github.com/user-attachments/assets/6d80c95a-5e04-4cb6-9b57-174b57a12a85" />
+
+## Logical XNOR operation ALP
+```
+MOV AX,5678h
+MOV BX,1234h
+AND AX,BX
+```
+## Output 
+
+
+<img width="1598" height="562" alt="Screenshot 2026-04-22 090031" src="https://github.com/user-attachments/assets/8266d747-619a-4853-8fc1-79a9fba587dd" />
+
+## Logical NAND operation ALP
+```
+MOV AX,5678h
+MOV BX,1234h
+AND AX,BX
+```
+## Output 
+
+<img width="1589" height="561" alt="Screenshot 2026-04-22 090017" src="https://github.com/user-attachments/assets/494620f5-3e95-48cd-b253-8a1e8fd443d0" />
+
 
 
 ## Result :
- 
-
-
-
-
-
-
-
-
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
